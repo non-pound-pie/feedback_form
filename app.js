@@ -2,7 +2,6 @@ $(document).ready(function() {
     // Intercept the form submission event
     $('#feedback-form').submit(function(e) {
         e.preventDefault();
-      
         // Send an AJAX request to submit.php with form data
         $.ajax({
             type: "POST",
